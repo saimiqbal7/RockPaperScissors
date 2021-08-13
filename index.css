@@ -1,0 +1,152 @@
+
+/* #8EE4AF*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Palette+Mosaic&display=swap');
+
+*{
+
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+body{
+
+	background: #4ABDAC ;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	color: white;
+
+}
+
+header{
+	background: #FC4A1A;
+	text-align: center;
+	padding: 40px;
+	color: white;
+	font-family: 'Palette Mosaic', cursive;
+
+}
+
+.main{
+
+
+	display: flex;
+	justify-content: center;
+}
+
+.score{
+
+
+	position: relative;
+	border: 3px solid #FC4A1A;
+	width: 300px;
+	margin: 60px auto 40px auto;
+	color: white;
+	font-size: 40px;
+	border-radius: 4px;
+	text-align: center;
+	padding: 15px 20px;
+
+
+}
+
+
+.uscom{
+	background: #FC4A1A;
+	padding: 5px 10px;
+	font-size: 15px;
+
+}
+
+#user{
+
+	position: absolute;
+	top: -18px;
+	left: 122px;
+}
+
+
+#comp{
+
+	position: absolute;
+	bottom: -18px;
+	right: 106px;
+}
+
+
+.result{
+
+	text-align: center;
+
+}
+
+.options{
+
+	margin-top: 40px;
+	display: flex;
+	justify-content: center;
+
+
+}
+
+
+.pick{
+
+	transition: all 0.3s ease;
+}
+
+.pick:hover{
+
+	cursor: pointer;
+	background: #FC4A1A;
+
+
+}
+
+img{
+
+	padding: 10px;
+	width: 70%;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	
+
+}
+
+#playerCard, #compCard{
+
+	margin: 20px;
+	font-size: 20px;
+	border: 2px solid #FC4A1A;
+	
+
+
+}
+
+
+footer{
+
+	margin-top: 30px;
+	text-align: center;
+
+}
+
+.greenGlow{
+	background: #4dcc7d;
+	
+}
+
+.redGLow{
+	background: #fc121b;
+	
+
+}
+
+.grayGlow{
+	background: gray;
+}
