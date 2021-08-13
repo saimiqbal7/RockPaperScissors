@@ -136,17 +136,7 @@ footer{
 
 }
 
-.greenGlow{
-	background: #4dcc7d;
-	
-}
 
-.redGLow{
-	background: #fc121b;
-	
-
-}
-
-.grayGlow{
-	background: gray;
+@media only screen and (max-width: 600px) {
+ 
 }
